@@ -1,0 +1,19 @@
+
+Created using module
+    Create "gameBoard" object that stores array of tile values
+    Create "displayController" object that sets the score and turn
+Created using factory
+    Create "player" object with AI/human variant, score 
+
+Each turn: 
+Wait for player to select valid tile
+Evaluate board
+If win, next round
+If no winner, continue to next turn
+
+Save settings
+Enable buttons
+Play game
+Play round
+Play turn
+End round

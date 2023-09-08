@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="display">
+        <h1 id="title">Tic Tac Toe</h1>
+        <div id="board">
+            <div class="tile" id="tile1">1</div>
+            <div class="tile" id="tile2">2</div>
+            <div class="tile" id="tile3">3</div>
+            <div class="tile" id="tile4">4</div>
+            <div class="tile" id="tile5">5</div>
+            <div class="tile" id="tile6">6</div>
+            <div class="tile" id="tile7">7</div>
+            <div class="tile" id="tile8">8</div>
+            <div class="tile" id="tile9">9</div>
+            <div id="message-container">
+                <div id="message" style="display: none">
+                </div>
+            </div>
+        </div>
+        <div id="setting">
+            <div class="setting-container">
+                <h2>Settings</h3>
+                <div class="options">
+                    <div>
+                        <input type="radio" id="pvp" name="options" checked>
+                        <label for="pvp">PVP</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="pve" name="options">
+                        <label for="pve">PVE</label>
+                    </div>
+                </div>
+                
+                <!-- <div class="players">
+                    <div class="pX player">
+                        <h3>Player X</h3>
+                        <div class="selection">
+                            <div class="btn selected" id = "xHumanBtn">Human</div>
+                            <div class="btn" id = "xAiBtn">
+                                <div>AI</div>
+                                <select name="difficulty" class="difficulty">
+                                    <option value="Easy">Easy</option>
+                                    <option value="Medium">Medium</option>
+                                    <option value="Hard">Hard</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pO player">
+                        <h3>Player O</h3>
+                        <div class="selection">
+                            <div class="btn selected" id="oHumanBtn">Human</div>
+                            <div class="btn" id="oAiBtn">
+                                <div>AI</div>
+                                <select name="difficulty" class="difficulty">
+                                    <option value="Easy">Easy</option>
+                                    <option value="Medium">Medium</option>
+                                    <option value="Hard">Hard</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <button id="start">Start</button>
+            </div>
+                <!-- <button id="enable">Enable</button>
+                <button id="disable">Disable</button> -->
+            </div>
+    </div>
+</body>
+</html>
